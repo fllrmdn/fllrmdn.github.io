@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Jost&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: navajowhite;
+}
+
+/*menubah warna tulisan h2*/
+h2{
+    color: royalblue;
+}
+
+/*mengatur tampilan footer*/
+footer{
+    padding: 20px;
+    background-color: navajowhite;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*mengatur letak posisi pd aside*/
+.profile header{
+    text-align: center;
+}
+
+.featured img{
+    width: 20%;
+    max-height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*mengatur ukuran gambar pd aside*/
+.profile img{
+    width: 250px;
+}
+
+nav a{
+    font-size: 15px;
+    font-weight: 400px;
+    text-decoration: none;
+    font-style: initial;
+    font: bold;
+}
+
+nav a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: slategray;
+}
+
+/*mengatur boxnya*/
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+article{
+    background-color: lightblue;
+}
+/*untuk memberi warna dan padding pada head*/
+.jumbotron{
+    font-size: 20px;
+    padding: 50px;
+    width: 100%;
+    background-color: lightsalmon;
+    text-align: center;
+    color: darkslategrey;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 30px;
+}
+
+/*mengatur posisi nav li*/
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+/*memberi warna pada nav li, padding dll nya*/
+nav{
+    background-color:darksalmon;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+main{
+    padding: 50px;
+    overflow: auto;
+}
+
+#content{
+    float: left;
+    width: 75%;
+}
+
+.cerita{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    padding: 50px;
+    background-color: lightsalmon;
+}
+
+.cerita1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    padding: 50px;
+    background-color:lightsalmon;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.slide img{
+    width: 1000px;
+}
+
+.konten{
+    width: 58.8%;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid navajowhite;
+    overflow: hidden;
+}
+
+.slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#nextbtn{
+    position: absolute;
+    left: 55%;
+}
+
+#prevbtn{
+    position: absolute;
+    right: 55%;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/*mengatur tampilan header*/
+
+header{
+    text-align: center;
+    display: inline;
+    font: bold;
+}
